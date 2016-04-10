@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>FunWeb</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="index.css">
+</head>
+<body>
+<script>
+  
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '688266017982990',
+      xfbml      : true,
+      version    : 'v2.5'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+<div class="header" >
+
+	<span class="left-header">FunWeb</span>
+	<span class="middle-header"><i><b>"Never stop learning, because life never stops teaching."</i></b></span>
+<span class="right-header">Date and time</span>
+	
+<span class="left-header">Play and Learn</span>
+
+</div>
+
+<div class="Moving-field">
+	<span class="marquee">Text miscator</span></div> 
+
+
+<div class="content">
+
+<div class="left-content">
+	<form method='POST' action='menu.html'>
+Username:<input type='text' name='user' placeholder="Type your username here..." /><br>
+Password :<input type='password' name='password' placeholder="Type your password here..."/><br>
+<input type='submit' value='Login aplication' />
+
+<p>
+<div class="fb-login-button" data-max-rows="1" data-size="medium" data-show-faces="false" data-auto-logout-link="false" visible="true"></div></p>
+	</form>
+
+<a href="register.html"><input type='submit' value='Register aplication' /></a><br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+<div
+  class="fb-like"
+  data-share="true"
+  data-width="450"
+  data-show-faces="true">
+</div>
+</div>
+
+
+<div class="right-content"><br><span>Adds</span>
+
+</div>
+</div>
+<br>
+<div class="footer">
+	<a href="www.facebook.com"><img src="1.png" width="25" height="25"/></a>
+	<a href="www.youtube.com"><img src="2.jpg" width="25" height="25"/></a>
+	<span class="copyright">&copy Reserved</span>
+	</div>
+
+
+
+	</body>
+
+</html>
