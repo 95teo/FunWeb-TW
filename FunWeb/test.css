@@ -1,0 +1,18 @@
+body {
+  
+}
+
+h2 {
+  text-align: left;
+}
+#Login_Register{
+  text-align: CENTER;
+  vertical-align: middle;
+  margin: 15%;
+}
+
+button{
+  width: 200px;
+  height: 50px;  
+}
+
